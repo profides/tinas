@@ -14,7 +14,8 @@ body {
 
 .navbar-custom {
   background-color: #49a34b;
-  border-color: #49a34b;
+  border-color: transparent;
+  margin-bottom: 0;
 }
 .navbar-custom .navbar-brand {
   color: #ffffff;
@@ -114,7 +115,6 @@ body {
 /* NAVBAR END */
 
 
-.starter-template {
+.main-content {
   padding: 40px 15px;
-  text-align: center;
 }
