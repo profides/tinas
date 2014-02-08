@@ -132,6 +132,41 @@ body {
 }
 /* FRONT PAGE COLUMN CONTENT END*/
 
+/* SERVICE PAGE RIGHT SIDE NAV ELEMENT */
+ul.service-nav {
+	margin-top: 30px;
+	list-style: none;
+}
+
+ul.service-nav > li > a {
+	display: block;
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+	color: #3f8c40;
+}
+
+ul.service-nav > li > a:hover {
+	text-decoration: none;
+	background-color: #e6ffbf;
+}
+
+ul.service-nav > li > ul {
+	list-style: none;
+	padding: 0 0 0 20px;
+}
+
+ul.service-nav > li > ul > li > a {
+	display: block;
+	color: #3f8c40;
+	padding: 3px 7px;
+}
+
+ul.service-nav > li > ul > li > a:hover {
+	text-decoration: none;
+	background-color: #e6ffbf;
+}
+/* SERVICE PAGE RIGHT SIDE NAV ELEMENT END*/
+
 /* FOOTER STUFF */
 html,
 body {
