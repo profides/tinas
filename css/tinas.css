@@ -14,8 +14,8 @@ body {
 
 .navbar-custom {
   background-color: #49a34b;
-  border-color: transparent;
   margin-bottom: 0;
+	border-bottom: 1px solid #3f8c40;
 }
 .navbar-custom .navbar-brand {
   color: #ffffff;
@@ -119,6 +119,12 @@ body {
   padding: 40px 15px;
 }
 
+/* FRONT PAGE CAROUSEL */
+img.carousel-image {
+	width: 100%;
+}
+/* FRONT PAGE CAROUSEL END */
+
 /* FRONT PAGE JUMBOTRON */
 .jumbotron {
 	text-align: center;
@@ -196,6 +202,7 @@ body {
 	  height: 200px;
 		padding: 30px 0 30px 0;
 	  background-color: #f5f5f5;
+		border-top: 1px solid #ddd;
 	}
 }
 /* Footer for windows smaller than 993px */
