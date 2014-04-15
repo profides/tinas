@@ -133,6 +133,10 @@ body {
   padding: 40px 15px;
 }
 
+.lead {
+	font-size: 16px;	
+}
+
 /* FRONT PAGE CAROUSEL */
 img.carousel-image {
 	width: 100%;
@@ -144,12 +148,14 @@ img.carousel-image {
 	text-align: left;
 	background-color: transparent;
 }
+
 /* JUMBOTRON END */
 
 /* FRONT PAGE COLUMN CONTENT */
 .front-page-columns {
-	text-align: center;
+	text-align: left;
 }
+
 /* FRONT PAGE COLUMN CONTENT END*/
 
 /* SERVICE PAGE RIGHT SIDE NAV ELEMENT */
