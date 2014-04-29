@@ -21,9 +21,9 @@ body {
 /* NAVBAR START */
 
 .navbar-custom {
-  background-color: #4E2E28;
+  background-color: #FFA62F;
   margin-bottom: 0;
-	border-bottom: 1px solid #4E2E28;
+	border-bottom: 1px solid #FFA62F;
 }
 .navbar-custom .navbar-brand {
   color: #ffffff;
@@ -48,7 +48,7 @@ body {
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: #ffffff;
-  background-color: #FFA62F;
+  background-color: #8B3E2F;
 }
 .navbar-custom .navbar-nav > .disabled > a,
 .navbar-custom .navbar-nav > .disabled > a:hover,
@@ -78,7 +78,7 @@ body {
 .navbar-custom .navbar-nav > .open > a,
 .navbar-custom .navbar-nav > .open > a:hover,
 .navbar-custom .navbar-nav > .open > a:focus {
-  background-color: #FFA62F;
+  background-color: #4E2E28;
   color: #ffffff;
 }
 .navbar-custom .navbar-nav > .open > a .caret,
@@ -98,13 +98,13 @@ body {
   .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #ffffff;
-    background-color: #EAC117;#EAC117
+    background-color: #EAC117;
   }
   .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #ffffff;
-    background-color: #FFA62F;
+    background-color: #8B3E2F;#FFA62F;
   }
   .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:hover,
@@ -123,8 +123,8 @@ body {
 /* NAVBAR END */
 
 .btn-success {
-	background-color:#4E2E28;
-	border:#4E2E28;
+	background-color:#8B3E2F;
+	border:#8B3E2F;
 }	
 
 .btn-success:hover {
@@ -139,9 +139,24 @@ body {
 	font-size: 16px;	
 }
 
+.front-page-lead {
+	font-size: 16px;
+	padding-left: 20%;
+	padding-right: 20%;
+	margin-bottom: 20px;
+	font-weight: 200;
+	line-height: 1.4;
+}
+
 /* FRONT PAGE CAROUSEL */
 img.carousel-image {
 	width: 100%;
+}
+
+.bg-img {
+	margin: auto;
+	background: url('http://www.cs.helsinki.fi/u/laxlax/tinas/img/bg-img.jpg');
+	background-repeat: no-repeat;
 }
 /* FRONT PAGE CAROUSEL END */
 
@@ -174,7 +189,7 @@ ul.service-nav > li > a {
 
 ul.service-nav > li > a:hover {
 	text-decoration: none;
-	background-color: #EBC79E;
+	background-color: #FFA62F
 }
 
 ul.service-nav > li > ul {
@@ -190,7 +205,7 @@ ul.service-nav > li > ul > li > a {
 
 ul.service-nav > li > ul > li > a:hover {
 	text-decoration: none;
-	background-color: #EBC79E;
+	background-color: #FFA62F
 }
 
 .affix {
@@ -208,6 +223,8 @@ td.td-indent {
 html,
 body {
   height: 100%;
+  width: 90%;
+  margin: auto;
   /* The html and body elements cannot have any padding or margin. */
 }
 
@@ -227,8 +244,8 @@ body {
 	#footer {
 	  height: 100px;
 		padding: 15px 0 15px 0;
-	  background-color: #4E2E28;
-		border-top: 1px solid #ddd;
+	  background-color: #FFA62F;
+		border-top: 1px solid #FFA62F;
 	}
 }
 .text-muted {
@@ -251,7 +268,7 @@ body {
 	#footer {
 	  height: 430px;
 		padding: 30px 0 30px 0;
-	  background-color: #4E2E28;
+	  background-color: #FFA62F;
 	}
 }
 /* FOOTER END */
