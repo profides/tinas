@@ -154,6 +154,7 @@ img.carousel-image {
 }
 
 .bg-img {
+	min-height: 450px;
 	background: url('http://www.cs.helsinki.fi/u/laxlax/tinas/img/bg-img.jpg');
 	background-repeat: no-repeat;
 	background-size: cover
