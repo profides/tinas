@@ -136,16 +136,26 @@ body {
 }
 
 .lead {
-	font-size: 16px;	
+	font-size: 14px;
+	color: #8B3E2F;
+}
+
+.container h1, p, p strong {
+	color: #8B3E2F;
+}
+
+.container a {
+	color: #EAC117
 }
 
 .front-page-lead {
-	font-size: 16px;
+	font-size: 14px;
 	padding-left: 20%;
 	padding-right: 20%;
 	margin-bottom: 20px;
 	font-weight: 200;
 	line-height: 1.4;
+	color: #8B3E2F;
 }
 
 /* FRONT PAGE CAROUSEL */
@@ -157,8 +167,13 @@ img.carousel-image {
 	min-height: 450px;
 	background: url('http://www.cs.helsinki.fi/u/laxlax/tinas/img/bg-img.jpg');
 	background-repeat: no-repeat;
-	background-size: cover
+	background-size: cover;
 }
+
+.bg-img img {
+	max-width: auto;
+}
+
 /* FRONT PAGE CAROUSEL END */
 
 /* FRONT PAGE JUMBOTRON */
@@ -239,6 +254,9 @@ body {
 	  margin: 0 auto -100px;
 	  /* Pad bottom by footer height */
 	  padding: 0 0 100px;
+	  background: url('http://www.cs.helsinki.fi/u/laxlax/tinas/img/bg-img.jpg');
+	  background-repeat: no-repeat;
+	  background-size: cover;
 	}
 
 	/* Set the fixed height of the footer here */
@@ -250,7 +268,7 @@ body {
 	}
 }
 .text-muted {
-  color: #F8F8FF;
+  color: #8B3E2F;
 }
 
 /* Footer for windows smaller than 993px */
@@ -263,6 +281,9 @@ body {
 	  margin: 0 auto -230px;
 	  /* Pad bottom by footer height */
 	  padding: 0 0 230px;
+	  background: url('http://www.cs.helsinki.fi/u/laxlax/tinas/img/bg-img.jpg');
+	  background-repeat: no-repeat;
+	  background-size: cover;
 	}
 
 	/* Set the fixed height of the footer here */
