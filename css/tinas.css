@@ -13,6 +13,7 @@
  old side menu hover #e6ffbf
  #8B3E2F - > #EAC117
  #B3432B -> #FFA62F
+ #Font color : #8B3E2F;
  */
 body {
 
@@ -26,29 +27,29 @@ body {
 	border-bottom: 1px solid #FFA62F;
 }
 .navbar-custom .navbar-brand {
-  color: #ffffff;
+  color: #8B3E2F;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus {
-  color: #dddddd;
+  color: #8B3E2F;
   background-color: transparent;
 }
 .navbar-custom .navbar-text {
-  color: #ffffff;
+  color: #8B3E2F;
 }
 .navbar-custom .navbar-nav > li > a {
-  color: #ffffff;
+  color: #8B3E2F;
 }
 .navbar-custom .navbar-nav > li > a:hover,
 .navbar-custom .navbar-nav > li > a:focus {
-  color: #ffffff;
+  color: #8B3E2F;
   background-color: #EAC117;
 }
 .navbar-custom .navbar-nav > .active > a,
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
-  color: #ffffff;
-  background-color: #8B3E2F;
+  color: #8B3E2F;
+  background-color: #EAC117;
 }
 .navbar-custom .navbar-nav > .disabled > a,
 .navbar-custom .navbar-nav > .disabled > a:hover,
@@ -57,14 +58,14 @@ body {
   background-color: #EAC117;
 }
 .navbar-custom .navbar-toggle {
-  border-color: #dddddd;
+  border-color: white;
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #dddddd;
+  background-color: white;
 }
 .navbar-custom .navbar-toggle .icon-bar {
-  background-color: #cccccc;
+  background-color: white;
 }
 .navbar-custom .navbar-collapse,
 .navbar-custom .navbar-form {
@@ -120,15 +121,20 @@ body {
   color: #ffffff;
 }
 
+.col-md-5 {
+	color: #8B3E2F;
+}
+
 /* NAVBAR END */
 
 .btn-success {
-	background-color:#8B3E2F;
-	border:#8B3E2F;
+	background-color:#FFA62F;
+	border:#FFA62F;
 }	
 
 .btn-success:hover {
-	background-color:#FFA62F;
+	background-color:#EAC117;
+	color: #8B3E2F;
 }
 
 .main-content {
@@ -140,12 +146,29 @@ body {
 	color: #8B3E2F;
 }
 
-.container h1, p, p strong {
+.container h1, p, p strong, h2 {
 	color: #8B3E2F;
 }
 
 .container a {
-	color: #EAC117
+	color: #8B3E2F;
+
+}
+
+.table {
+	color: #8B3E2F;
+}
+
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+	border-top: none;
+}
+
+.page-header {
+	border-bottom: none;
+}
+
+.container ul {
+	color: #8B3E2F;
 }
 
 .front-page-lead {
@@ -251,9 +274,9 @@ body {
 	  min-height: 100%;
 	  height: auto;
 	  /* Negative indent footer by its height */
-	  margin: 0 auto -100px;
+	  margin: 0 auto -120px;
 	  /* Pad bottom by footer height */
-	  padding: 0 0 100px;
+	  padding: 0 0 120px;
 	  background: url('http://www.cs.helsinki.fi/u/laxlax/tinas/img/bg-img.jpg');
 	  background-repeat: no-repeat;
 	  background-size: cover;
@@ -261,7 +284,7 @@ body {
 
 	/* Set the fixed height of the footer here */
 	#footer {
-	  height: 100px;
+	  height: 120px;
 		padding: 15px 0 15px 0;
 	  background-color: #FFA62F;
 		border-top: 1px solid #FFA62F;
