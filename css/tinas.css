@@ -254,6 +254,10 @@ ul.service-nav > li > ul > li > a:hover {
 .affix {
 	position: static;
 }
+
+.text-muted {
+  color: #8B3E2F;
+}
 /* SERVICE PAGE RIGHT SIDE NAV ELEMENT END */
 
 /* PRICING PAGE TABLE STYLES */
@@ -294,9 +298,6 @@ body {
 	  border-top: 1px solid #FFA62F;
 	}
 }
-.text-muted {
-  color: #8B3E2F;
-}
 
 /* Footer for windows smaller than 993px */
 @media (max-width: 991px) {
@@ -316,6 +317,28 @@ body {
 	/* Set the fixed height of the footer here */
 	#footer {
 	  height: 230px;
+	  padding: 30px 0 30px 0;
+	  background-color: #FFA62F;
+	}
+}
+
+@media (max-width: 399px) {
+	/* Wrapper for page content to push down footer */
+	#footer-wrap {
+	  min-height: 100%;
+	  height: auto;
+	  /* Negative indent footer by its height */
+	  margin: 0 auto -300px;
+	  /* Pad bottom by footer height */
+	  padding: 0 0 300px;
+	  background: url('http://www.cs.helsinki.fi/u/laxlax/tinas/img/bg-img.jpg');
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	}
+
+	/* Set the fixed height of the footer here */
+	#footer {
+	  height: 300px;
 	  padding: 30px 0 30px 0;
 	  background-color: #FFA62F;
 	}
