@@ -288,7 +288,7 @@ body {
 	  margin: 0 auto -120px;
 	  /* Pad bottom by footer height */
 	  padding: 0 0 120px;
-	  background: url('http://www.cs.helsinki.fi/u/laxlax/tinas/img/bg-img.jpg');
+	  background: url('../img/bg-img.jpg');
 	  background-repeat: no-repeat;
 	  background-size: cover;
 	}
@@ -312,7 +312,7 @@ body {
 	  margin: 0 auto -260px;
 	  /* Pad bottom by footer height */
 	  padding: 0 0 260px;
-	  background: url('http://www.cs.helsinki.fi/u/laxlax/tinas/img/bg-img.jpg');
+	  background: url('../img/bg-img.jpg');
 	  background-repeat: no-repeat;
 	  background-size: cover;
 	}
@@ -334,7 +334,7 @@ body {
 	  margin: 0 auto -300px;
 	  /* Pad bottom by footer height */
 	  padding: 0 0 300px;
-	  background: url('http://www.cs.helsinki.fi/u/laxlax/tinas/img/bg-img.jpg');
+	  background: url('../img/bg-img.jpg');
 	  background-repeat: no-repeat;
 	  background-size: cover;
 	}
